@@ -8,7 +8,7 @@ import Slider from "../components/Slider";
 
 export default function Home() {
   return (
-    <Flex direction="column">
+    <Flex direction="column" overflow="hidden">
       <Header />
       <Banner />
       <Features />

@@ -1,7 +1,8 @@
 import { Flex, Heading, Text } from "@chakra-ui/react";
 import Link from "next/link";
+import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
+
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Pagination } from "swiper";
 
 export default function Slider() {
   return (
@@ -16,7 +17,7 @@ export default function Slider() {
         slidesPerView={1}
         navigation
         pagination={{ clickable: true }}
-        modules={[Pagination]}
+        modules={[Navigation, Pagination, Scrollbar, A11y]}
         autoplay={{
           delay: 4000
         }}
