@@ -1,5 +1,7 @@
 import { Grid, Text } from "@chakra-ui/react";
 
+import Infos from "./Infos";
+
 export default function Content() {
   return (
     <Grid
@@ -14,6 +16,7 @@ export default function Content() {
       >
         A Europa é, por convenção, um dos seis continentes do mundo. Compreendendo a penísula ocidental da Eurásia, a Europa geralmente divide-se da Ásia a leste pela divisória de águas dos montes Urais, o rio Ural, o mar Cáspio, o Cáucaso, e o mar Negro a sudeste.
       </Text>
+      <Infos />
     </Grid>
   );
 }
